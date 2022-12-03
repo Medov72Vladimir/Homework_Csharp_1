@@ -3,5 +3,11 @@
 
 Console.WriteLine("Введите положительное число N: ");
 int number = Convert.ToInt32(Console.ReadLine());
-
-for (int i = 2; i < number+1; i+=2) Console.Write($"{i} ");
+if ( number > 0)
+{
+for (int i = 2; i <= number; i+=2) Console.Write($"{i}, ");
+}
+else
+{
+Console.WriteLine("Вы ввели отрицательное число!");
+}

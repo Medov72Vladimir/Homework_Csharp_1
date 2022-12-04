@@ -8,4 +8,5 @@ if ((number >= 100) && (number <= 999))
 {
    Console.WriteLine($"Вторая цифра числа = {(number / 10) % 10}"); 
 }
-else Console.Write("Допущена ошибка при вводе числа");
+else 
+   Console.Write("Допущена ошибка при вводе числа");

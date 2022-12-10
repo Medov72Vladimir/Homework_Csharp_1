@@ -12,5 +12,5 @@
         array[i] = (int)char.GetNumericValue(number[i]);
          sum += array[i]; 
       }
-      Console.WriteLine(sum);
+      Console.WriteLine($"Сумма цифр числа {number} = {sum}");
    
